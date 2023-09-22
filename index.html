@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* Стили для контейнера */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Стили для ячеек */
+        button {
+            width: 100%;
+            height: 100%;
+            border: 2px solid #00ADB5;
+            background-color: #393E46;
+            cursor: pointer;
+            text-align: center;
+            vertical-align: middle;
+            color: #EEEEEE;
+            padding: 10px;
+            font-size: 16px;
+            margin: auto;
+        }
+        html {
+            background-color: #222831;
+            width: 240px;
+        }
+        /* Стили для ячеек при наведении */
+        button:hover {
+            background-color: #2e333a;
+        }
+
+        /* Стили для ячеек при активном (кликнутом) состоянии */
+        button:active {
+            background-color: #5a5f66;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="createBtn">Создана</button>
+        <button id="solveBtn">Решение</button>
+        <button id="sendBtn">Передана специалистам</button>
+        <button id="closeBtn">Закрыта</button>
+        <button id="askBtn">Можно закрыть?</button>
+        <button id="passBtn">Пропуск оформлен</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
